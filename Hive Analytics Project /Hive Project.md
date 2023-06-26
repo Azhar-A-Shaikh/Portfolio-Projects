@@ -7,6 +7,13 @@
 
 **By utilizing Docker, I have encapsulated the entire Hadoop Hive framework within a single container. This containerization approach allows for seamless deployment and consistent execution of Hive across various environments, providing the benefits of portability, scalability, and ease of management. With Docker, Hadoop Hive becomes a self-contained unit that can be effortlessly deployed, shared, and operated, simplifying the setup and configuration process while ensuring reliable and efficient execution of Hive workflows.**
 
+### How Hive and Hadoop Work
+
+* Hadoop breaks down large datasets into smaller chunks and distributes them across a cluster of computers. This allows data processing to be done in parallel across multiple nodes, resulting in faster processing times.
+* Hive provides a SQL-like interface to query and analyze data stored in Hadoop. It translates queries into MapReduce jobs, which are executed across the Hadoop cluster.
+* Hive uses a schema-on-read approach, which means that data is only structured when it is queried. This allows for flexibility in data exploration and analysis, as new data can be added to the Hadoop cluster without the need to restructure the entire dataset.
+* Hive provides a wide range of built-in functions and support for custom user-defined functions (UDFs), enabling users to perform complex data transformations and analysis.
+
 #### Apache Hive Architecture
 
 ![Apache Hive Architecture](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/10/Screenshot-from-2020-10-25-20-47-32.png)
