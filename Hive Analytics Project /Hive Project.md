@@ -7,6 +7,8 @@
 
 **By utilizing Docker, I have encapsulated the entire Hadoop Hive framework within a single container. This containerization approach allows for seamless deployment and consistent execution of Hive across various environments, providing the benefits of portability, scalability, and ease of management. With Docker, Hadoop Hive becomes a self-contained unit that can be effortlessly deployed, shared, and operated, simplifying the setup and configuration process while ensuring reliable and efficient execution of Hive workflows.**
 
+#### Apache Hive Architecture
+
 ![Apache Hive Architecture](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/10/Screenshot-from-2020-10-25-20-47-32.png)
 
 
@@ -65,6 +67,7 @@ To optimize query performance and improve data organization, partitioning and bu
 1. **Partitioning:** The dataset was partitioned based on [partitioning key/column], dividing the data into separate partitions for faster data retrieval.
 2. **Bucketing:** The dataset was bucketed based on [bucketing key/column], distributing the data into buckets to improve query performance.
 
+#### How Partitioning & Bucketing Looks
 ![How Partitioning & Bucketing Looks like](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/11/Screenshot-from-2020-11-11-14-41-05.png)
 
 ## Results and Findings
