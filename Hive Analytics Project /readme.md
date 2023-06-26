@@ -1,5 +1,10 @@
 # Hive Project Description
 
+## Tech Stack
+* Hadoop
+* Hive
+* Docker
+
 ## Overview
 This project involves working with Hive to analyze and query data stored in HDFS. Various queries were performed on the dataset, and techniques like partitioning and bucketing were applied to enhance data organization and query performance.
 
