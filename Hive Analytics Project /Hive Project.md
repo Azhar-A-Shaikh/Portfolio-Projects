@@ -1,4 +1,4 @@
-# Hive Project Over view
+# Hive Project Overview
 
 ## Tech Stack
 * **Hadoop** :- Hadoop is a distributed processing framework that enables users to store and process large datasets across clusters of computers.
