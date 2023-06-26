@@ -1,6 +1,6 @@
 # Hive Project Overview
 
-## Tech Stack
+## Tech Stack Used.
 * **Hadoop** :- Hadoop is a distributed processing framework that enables users to store and process large datasets across clusters of computers.
 * **Hive** :- Hive is a data warehousing tool that enables users to query and analyze large datasets stored in Hadoop Distributed File System (HDFS)
 * **Docker** :- Docker is an open-source platform that enables software applications to run consistently across different environments by packaging them into containers.
