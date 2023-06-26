@@ -1,4 +1,4 @@
-# Hive Project Description
+# Hive Project Over view
 
 ## Tech Stack
 * Hadoop
@@ -9,10 +9,10 @@
 
 
 ## Overview
-This project involves working with Hive to analyze and query data stored in HDFS. Various queries were performed on the dataset, and techniques like partitioning and bucketing were applied to enhance data organization and query performance.
+The Projects involves working with Hive to analyze and query data stored in HDFS. Various queries were performed on the dataset, and techniques like partitioning and bucketing were applied to enhance data organization and query performance.
 
 ## Dataset
-The project utilizes a dataset stored in HDFS. The dataset contains [brief description of the dataset, e.g., customer information, sales transactions, etc.]. The data is stored in various files in the HDFS file system.
+The Projects utilizes a dataset stored in HDFS. The data is stored in various files in the HDFS file system.
 
 ## Data Loading
 The dataset was loaded into Hive tables using the following steps:
@@ -69,6 +69,6 @@ To optimize query performance and improve data organization, partitioning and bu
 The analysis of the dataset and the execution of various queries yielded the following key findings:
 
 ## Conclusion
-In conclusion, this Hive project involved loading data from HDFS into Hive tables, performing various queries, and applying partitioning and bucketing techniques to improve data organization and query performance. The analysis of the dataset provided valuable insights and supported data-driven decision-making.
+In conclusion, this Hive projects involved loading data from HDFS into Hive tables, performing various queries, and applying partitioning and bucketing techniques to improve data organization and query performance. The analysis of the dataset provided valuable insights and supported data-driven decision-making.
 
-For more detailed information, please refer to the corresponding scripts, HIVEQL -( HQL ) file) in the project folders.
+For more detailed information, please refer to the corresponding scripts, HIVEQL -( HQL ) file) in each project folder.
