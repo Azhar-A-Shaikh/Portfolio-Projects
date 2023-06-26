@@ -17,9 +17,32 @@ The dataset was loaded into Hive tables using the following steps:
 Several queries were executed on the dataset to extract meaningful insights and perform data analysis. Some examples of the queries performed include:
 
 - [Provide examples of queries executed, such as aggregations, filtering, joins, etc.]
-- [Query 1]
-- [Query 2]
-- [Query 3]
+- How often does each violation code occur? (frequency of violation codes - find the top 5)
+  SELECT violation_code, COUNT(*) AS frequency
+  FROM newyork_parking
+  GROUP BY violation_code
+  ORDER BY frequency DESC
+  LIMIT 5;
+  
+- How often does each vehicle body type get a parking ticket? How about the vehicle make? (find the top 5 for both)
+  SELECT summ_veh_body, COUNT(*) AS frequency
+  FROM newyork_parking
+  GROUP BY summ_veh_body
+  ORDER BY frequency DESC
+  LIMIT 5;
+  
+- Divide 24 hours into 6 equal discrete bins of time. The intervals you choose are at your discretion. For each of these groups, find the 3 most commonly occurring violations.
+  SELECT
+    CASE
+      WHEN SUBSTR(violation_time, 1, 2) BETWEEN '00' AND '03' THEN '00:00-03:59'
+      WHEN SUBSTR(violation_time, 1, 2) BETWEEN '04' AND '07' THEN '04:00-07:59'
+      WHEN SUBSTR(violation_time, 1, 2) BETWEEN '08' AND '11' THEN '08:00-11:59'
+      WHEN SUBSTR(violation_time, 1, 2) BETWEEN '12' AND '15' THEN '12:00-15:59'
+      WHEN SUBSTR(violation_time, 1, 2) BETWEEN '16' AND '19' THEN '16:00-19:59'
+      ELSE '20:00-23:59'
+    END AS hour,
+    violation_code
+  FROM newyork_parking
 
 ## Data Organization Techniques
 To optimize query performance and improve data organization, partitioning and bucketing techniques were employed:
