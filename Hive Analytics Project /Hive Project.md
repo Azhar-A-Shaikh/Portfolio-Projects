@@ -1,9 +1,11 @@
 # Hive Project Over view
 
 ## Tech Stack
-* Hadoop
-* Hive
-* Docker
+* **Hadoop** :- Hadoop is a distributed processing framework that enables users to store and process large datasets across clusters of computers.
+* **Hive** :- Hive is a data warehousing tool that enables users to query and analyze large datasets stored in Hadoop Distributed File System (HDFS)
+* **Docker** :- Docker is an open-source platform that enables software applications to run consistently across different environments by packaging them into containers.
+
+**By utilizing Docker, I have encapsulated the entire Hadoop Hive framework within a single container. This containerization approach allows for seamless deployment and consistent execution of Hive across various environments, providing the benefits of portability, scalability, and ease of management. With Docker, Hadoop Hive becomes a self-contained unit that can be effortlessly deployed, shared, and operated, simplifying the setup and configuration process while ensuring reliable and efficient execution of Hive workflows.**
 
 ![Apache Hive Architecture](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/10/Screenshot-from-2020-10-25-20-47-32.png)
 
