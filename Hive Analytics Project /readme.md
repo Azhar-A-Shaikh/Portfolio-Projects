@@ -16,7 +16,6 @@ The dataset was loaded into Hive tables using the following steps:
 ## Data Querying
 Several queries were executed on the dataset to extract meaningful insights and perform data analysis. Some examples of the queries performed include:
 
-- [Provide examples of queries executed, such as aggregations, filtering, joins, etc.]
 - How often does each violation code occur? (frequency of violation codes - find the top 5)
   SELECT violation_code, COUNT(*) AS frequency
   FROM newyork_parking
