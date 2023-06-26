@@ -53,8 +53,6 @@ To optimize query performance and improve data organization, partitioning and bu
 ## Results and Findings
 The analysis of the dataset and the execution of various queries yielded the following key findings:
 
-- [Describe the key insights, trends, or patterns discovered during the data analysis process.]
-
 ## Conclusion
 In conclusion, this Hive project involved loading data from HDFS into Hive tables, performing various queries, and applying partitioning and bucketing techniques to improve data organization and query performance. The analysis of the dataset provided valuable insights and supported data-driven decision-making.
 
