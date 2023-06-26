@@ -18,6 +18,7 @@ hdfs dfs -put agentperformance.csv /data/all_data/
 
 # Creating the Hive Internal Tables for agent login report & agent performance file 
 
+```
 CREATE TABLE agentloginreport (
   sl_no INT,
   agent CHAR(20),
@@ -30,7 +31,9 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 location '/data/all_data/agentloginreport.csv';
+```
 
+```
 CREATE TABLE agentperformance (
   sl_no INT,
   date DATE,
@@ -45,6 +48,7 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
 location '/data/all_data/agentperformance.csv';
+```
 
 ### List of all agents' names.
 ```
