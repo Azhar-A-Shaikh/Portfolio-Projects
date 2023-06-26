@@ -63,6 +63,8 @@ To optimize query performance and improve data organization, partitioning and bu
 1. **Partitioning:** The dataset was partitioned based on [partitioning key/column], dividing the data into separate partitions for faster data retrieval.
 2. **Bucketing:** The dataset was bucketed based on [bucketing key/column], distributing the data into buckets to improve query performance.
 
+![How Partitioning & Bucketing Looks like](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/11/Screenshot-from-2020-11-11-14-41-05.png)
+
 ## Results and Findings
 The analysis of the dataset and the execution of various queries yielded the following key findings:
 
