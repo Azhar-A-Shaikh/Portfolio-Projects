@@ -1,7 +1,7 @@
 ## Overview
 This project focuses on building a data pipeline to convert customer spending data from multiple currencies into a unified currency. The data is retrieved from a Forex exchange API and stored in an AWS S3 bucket. Using an EC2 instance with Docker installed, a Python code is executed to pull the records from the API and store them in the S3 bucket. An EMR cluster is then set up to process the customer spending data and perform currency conversion which will later be analyzed. 
 
-### of the Project 
+### Architecture of the Project 
 
 ![arch of project](https://projex.gumlet.io/getting-started-with-pyspark-on-aws-emr-and-athena/images/projectpro_pyapi.jpeg?w=1500&dpr=1.0)
 
