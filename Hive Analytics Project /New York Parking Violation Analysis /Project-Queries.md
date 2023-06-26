@@ -295,7 +295,63 @@ LIMIT 3;
 
 ```
 
+#### Query to perform Static partitioning based on any Registration State 
 
+ALTER TABLE newyork_parking
+ADD PARTITION (registration_state='NY') LOCATION 'data/all_data/registration_state=NY'
+
+#### Query for dynamic partitioning based on Registraction State
+
+CREATE EXTERNAL TABLE IF NOT EXISTS newyork_parking (
+  summons_number INT,
+  plate_id STRING,
+  registration_state STRING,
+  plate_type STRING,
+  issue_date DATE,
+  violation_code INT,
+  summ_veh_body STRING,
+  summ_veh_make STRING,
+  issuing_agency STRING,
+  street_code1 INT,
+  street_code2 INT,
+  street_code3 INT,
+  vehicle_expiration_date INT,
+  violation_location INT,
+  violation_precinct INT,
+  issuer_precinct INT,
+  issuer_code INT,
+  issuer_command STRING,
+  issuer_squad STRING,
+  violation_time STRING,
+  time_first_observed INT,
+  violation_county STRING,
+  front_of_opposite STRING,
+  house_number STRING,
+  street_name STRING,
+  intersecting_street STRING,
+  date_first_observed INT,
+  law_section INT,
+  sub_division STRING,
+  violation_legal_code STRING,
+  days_in_effect STRING,
+  from_hours_in_effect STRING,
+  to_hours_in_effect STRING,
+  vehicle_color STRING,
+  unregistered_vehicle BOOLEAN,
+  vehicle_year INT,
+  meter_number STRING,
+  feet_from_corb INT,
+  violation_post_code STRING,
+  violation_description STRING,
+  no_standing_or_stopping_violation STRING,
+  hydrant_violation STRING,
+  double_parking_violation STRING
+)
+PARTITIONED BY (registration_state STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION 'data/all_data/parking_violations_issued_fiscal_year_2017.csv' ;
 
 
 
