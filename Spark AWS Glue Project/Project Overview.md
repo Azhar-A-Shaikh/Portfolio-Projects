@@ -2,7 +2,7 @@
 This project focuses on building a data pipeline using AWS Glue and Athena to analyze and process data sourced from various files stored in Amazon S3. The provided script demonstrates the implementation of this pipeline.
 
 ## PROJECT ARCHITECTURE 
-![AWS GLue](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2020/02/05/ParquetWriterAWSGlue3.png)
+![AWS GLue](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/12/09/BDB-1948-image001.png)
 
 ## Project Workflow
 
