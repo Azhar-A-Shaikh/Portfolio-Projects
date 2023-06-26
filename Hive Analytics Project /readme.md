@@ -5,7 +5,7 @@
 * Hive
 * Docker
 
-![Apache Hive Architecture](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2020%2F10%2Fgetting-started-with-apache-hive%2F&psig=AOvVaw0JmJKAzbxnODzegCWOY7X9&ust=1687852419942000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICiprG64P8CFQAAAAAdAAAAABAJ)
+![Apache Hive Architecture](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/10/Screenshot-from-2020-10-25-20-47-32.png)
 
 
 ## Overview
